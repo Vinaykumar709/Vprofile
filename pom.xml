@@ -184,7 +184,7 @@
 	<repositories>
     <repository>
       <id>${NEXUS-GRP-REPO}</id>
-      <url>http://${NEXUSIP}:${NEXUSPORT}/repository/${NEXUS-GRP-REPO}/</url>
+      <url>http://44.211.141.240:8081/repository/nuget-group/</url>
     </repository>
   </repositories>
 </project>
