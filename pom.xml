@@ -27,6 +27,20 @@
         <sonar.login>sqp_8f8634ef2b8d0301a9e9845d89f75e3dfab89250</sonar.login>
 
     </properties>
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>/repository/maven-snapshots/</name>
+        <url>http://44.211.141.240:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    
+    <repository>
+        <id>release</id>
+        <name>/repository/maven-releases/</name>
+        <url>http://44.211.141.240:8081/repository/maven-releases/</url>
+    </repository>
+</distributionManagement>
+
 
     <dependencies>
         <dependency>
